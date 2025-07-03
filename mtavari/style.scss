@@ -1,0 +1,12 @@
+@import url(base.css);
+@import url(media-queries.css);
+
+@media #{$mobile} {
+    @import 'mobile';
+}
+@media #{$tablet} {
+    @import 'tablet';
+}
+@media #{$desktop} {
+    @import 'desktop';
+}
