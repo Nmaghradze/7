@@ -52,6 +52,17 @@ input {
   margin-top: 15px;
 }
 
+h2 {
+  color: rgb(191, 93, 243);
+  font-size: 22px;
+  font-family: "BPG Irubaqidze", monospace, sans-serif;
+}
+
+.blu {
+  align-items: center;
+  display: grid;
+}
+
 .card-container {
   display: flex;
   justify-content: center;
@@ -63,7 +74,7 @@ input {
   width: 280px;
   height: 320px;
   background: white;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .card img {
@@ -103,32 +114,4 @@ input {
 .k {
   font-size: 12px;
   color: grey;
-}
-
-.footer {
-  height: 130px;
-  background-color: rgb(97, 175, 184);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 60px;
-}
-
-.link {
-  color: rgb(201, 216, 234);
-  text-decoration: none;
-  font-size: 30px;
-  font-weight: bold;
-}
-
-.link:hover {
-  text-decoration: underline;
-}
-
-.m {
-  display: grid;
-  color: rgb(85, 185, 239);
-  font-size: large;
-  justify-content: center;
-  font-family: "BPG Irubaqidze", monospace, sans-serif;
 }/*# sourceMappingURL=base.css.map */
