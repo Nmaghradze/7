@@ -12,7 +12,7 @@
   }
 
   input {
-    width: 85%;
+    width: 400px;
     margin: 10px auto;
     display: block;
   }
@@ -60,5 +60,9 @@
 
   .stars {
     text-align: center;
+  }
+
+  .footer {
+    margin-top: 150px;
   }
 }
