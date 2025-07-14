@@ -1,5 +1,9 @@
+:root {
+  --main-color: rgb(196, 217, 242);
+}
+
 body {
-  background-color: rgb(196, 217, 242);
+  background-color: var(--main-color);
 }
 
 .container {
